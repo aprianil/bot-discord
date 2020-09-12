@@ -1,9 +1,11 @@
 ## Closa -  Discord Bot
-![closa logo](/resource/img/logo_closa.png)
+
+<img src="./resource/img/logo_closa.png" width="150">
 
 `Closa` is A habit-forming community where you get things done, meet interesting people, and do what matters.
 
-*Invite-only member*
+`*Invite-only member*`
+
 DM us "Hi👋" to Join the waitlist at [`closa`](http://closa.me)
 
 
@@ -17,8 +19,8 @@ DM us "Hi👋" to Join the waitlist at [`closa`](http://closa.me)
 
 **How to Contribute**
 ---
-
-1. Clone repo and create a new branch: `$ git checkout https://github.com/beClosa/bot-discord.git -b [feature name]_[contributor name]`.
-2. Make changes 
-3. Submit Pull Request 
+1. Join Closa Community
+2. Clone repo and create a new branch: `$ git checkout https://github.com/beClosa/bot-discord.git -b [feature name]_[contributor name]`.
+3. Make changes 
+4. Submit Pull Request 
 
