@@ -8,6 +8,7 @@ The following is a set of guidelines for contributing to Closa and its packages,
 [What should I know before I get started?](#what-should-i-know-before-i-get-started)
   * [Closa Community](#closa-community)
   * [Tech Stack](#tech-stack)
+  * [Run Bot in local computer](#local-development)
 
 
 
@@ -58,15 +59,21 @@ Our community helps you build the right habits. Remove Distraction. Meet New Ind
 >9. Value the 1 on 1 Relationship  
 >10. Pay it forward!  
 
-### **Tech Stack**
+### **Main Tech Stack**
 - Bot Discord
   - Nodejs
-  - discordjs
+  - Discordjs
 - API
   - Express
   - Sequelize
   - Postgres
   - JWT
+
+### Local development
+- install [postgres](https://www.postgresql.org/download/) on your local computer
+- Install [Postman](https://www.postman.com/downloads/) or similar apps for testing API
+- Join Discord Server Closa Development 
+- Running bot closa, you just need run `node app.js` on your terminal
 ---
 
 ## How Can I Contribute?
@@ -99,11 +106,6 @@ You can use [this tool](https://www.cockos.com/licecap/) to record GIFs on macOS
 This section guides you through submitting an enhancement suggestion for Closa, including completely new features and minor improvements to existing functionality. Following these guidelines helps maintainers and the community understand your suggestion :pencil: and find related suggestions :mag_right:.
 
 Before creating enhancement suggestions, please check [this list](#before-submitting-an-enhancement-suggestion) as you might find out that you don't need to create one. When you are creating an enhancement suggestion, please [include as many details as possible](#how-do-i-submit-a-good-enhancement-suggestion). Fill in [the template](https://github.com/closa/.github/blob/master/.github/ISSUE_TEMPLATE/feature_request.md), including the steps that you imagine you would take if the feature you're requesting existed.
-
-#### Local development
-- You must install postgres on your local computer
-- Install Postman or apps similar for testing API
-- Running bot closa, you just need run `node app.js` on your terminal
 
 ### Pull Requests
 
