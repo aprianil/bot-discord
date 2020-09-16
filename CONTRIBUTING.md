@@ -75,14 +75,14 @@ Our community helps you build the right habits. Remove Distraction. Meet New Ind
 
 This section guides you through submitting a bug report for Closa. Following these guidelines helps maintainers and the community understand your report :pencil:, reproduce the behavior, and find related reports :mag_right:.
 
-Before creating bug reports, please check [this list](#before-submitting-a-bug-report) as you might find out that you don't need to create one. When you are creating a bug report, please [include as many details as possible](#how-do-i-submit-a-good-bug-report). Fill out [the required template](https://github.com/closa/.github/blob/master/.github/ISSUE_TEMPLATE/bug_report.md), the information it asks for helps us resolve issues faster.
+When you are creating a bug report, please [include as many details as possible](#how-do-i-submit-a-good-bug-report). Fill out [the required template](https://github.com/beClosa/bot-discord/blob/master/.github/ISSUE_TEMPLATE/bug_report.md), the information it asks for helps us resolve issues faster.
 
 > **Note:** If you find a **Closed** issue that seems like it is the same thing that you're experiencing, open a new issue and include a link to the original issue in the body of your new one.
 
 
 #### How Do I Submit A (Good) Bug Report?
 
-Bugs are tracked as [GitHub issues](https://guides.github.com/features/issues/). After you've determined, create an issue on that repository and provide the following information by filling in [the template](https://github.com/closa/.github/blob/master/.github/ISSUE_TEMPLATE/bug_report.md).
+Bugs are tracked as [GitHub issues](https://guides.github.com/features/issues/). After you've determined, create an issue on that repository and provide the following information by filling in [the template](https://github.com/beClosa/bot-discord/blob/master/.github/ISSUE_TEMPLATE/bug_report.md).
 
 Explain the problem and include additional details to help maintainers reproduce the problem:
 
@@ -117,18 +117,13 @@ Please follow these steps to have your contribution considered by the maintainer
 ### Git Commit Messages
 
 * Use the present tense ("Add feature" not "Added feature")
-* Use the imperative mood ("Move cursor to..." not "Moves cursor to...")
 * Limit the first line to 72 characters or less
 * Reference issues and pull requests liberally after the first line
 * When only changing documentation, include `[ci skip]` in the commit title
 * Consider starting the commit message with an applicable emoji:
     * :art: `:art:` when improving the format/structure of the code
     * :racehorse: `:racehorse:` when improving performance
-    * :non-potable_water: `:non-potable_water:` when plugging memory leaks
     * :memo: `:memo:` when writing docs
-    * :penguin: `:penguin:` when fixing something on Linux
-    * :apple: `:apple:` when fixing something on macOS
-    * :checkered_flag: `:checkered_flag:` when fixing something on Windows
     * :bug: `:bug:` when fixing a bug
     * :fire: `:fire:` when removing code or files
     * :green_heart: `:green_heart:` when fixing the CI build
@@ -136,7 +131,6 @@ Please follow these steps to have your contribution considered by the maintainer
     * :lock: `:lock:` when dealing with security
     * :arrow_up: `:arrow_up:` when upgrading dependencies
     * :arrow_down: `:arrow_down:` when downgrading dependencies
-    * :shirt: `:shirt:` when removing linter warnings
 
 ## Additional Notes
 
@@ -149,7 +143,7 @@ This section lists the labels we use to help us track and manage issues and pull
 #### Type of Issue and Issue State
 
 | Label name |  Description |
-| --- | --- | --- | --- |
+| --- | --- |
 | `enhancement` | Feature requests. |
 | `bug` |  Confirmed bugs or reports that are very likely to be bugs. |
 | `help-wanted` |  The Closa core team would appreciate help from the community in resolving these issues. |
@@ -157,8 +151,8 @@ This section lists the labels we use to help us track and manage issues and pull
 
 #### Pull Request Labels
 
-| Label name | Description
-| --- | --- | --- | --- |
+| Label name | Description |
+| --- | --- |
 | `work-in-progress` | Pull requests which are still being worked on, more changes will follow. |
 | `needs-review` | Pull requests which need code review, and approval from maintainers. |
 | `under-review` | Pull requests being reviewed by maintainers. |
