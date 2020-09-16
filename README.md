@@ -4,7 +4,7 @@
 
 `Closa` is A habit-forming community where you get things done, meet interesting people, and do what matters.
 
-`*Invite-only member*`
+*Invite-only member*
 
 DM us "Hi👋" to Join the waitlist at [`closa`](http://closa.me)
 
