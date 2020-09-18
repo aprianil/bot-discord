@@ -27,7 +27,7 @@ DM us "Hi👋" to Join the waitlist at [`closa`](http://closa.me)
 1. Join Closa Community
 2. Read [Contribution Workflow](https://github.com/beClosa/bot-discord/blob/master/CONTRIBUTING.md)
 3. Clone repo `$ git checkout https://github.com/beClosa/bot-discord.git` 
-4. Create Issue
+4. Create [New Issue](https://github.com/beClosa/bot-discord/issues/new/choose) or [Find Existing Issue](https://github.com/beClosa/bot-discord/issues)
 5. Create a new branch:   `-b [feature/bug name]_[contributor name]`.
 6. Make changes
 7. Before Submit Pull Request to branch `master`, you can test your code in `development` environment to verify that your change has the desired effects
