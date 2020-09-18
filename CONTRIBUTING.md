@@ -141,7 +141,10 @@ Please follow these steps to have your contribution considered by the maintainer
     * :green_heart: `:green_heart:` when fixing the CI build
     * :white_check_mark: `:white_check_mark:` when adding tests
     * :lock: `:lock:` when dealing with security
-
+* Example: 
+  * `$ git commit -m  ':memo: Add README.md'`
+  * `$ git commit -m ':white_check_mark: Add testing for daily streak'`
+  
 ## Additional Notes
 
 ### Issue and Pull Request Labels
