@@ -15,6 +15,7 @@ The following is a set of guidelines for contributing to Closa and its packages,
 [How Can I Contribute?](#how-can-i-contribute)
   * [Reporting Bugs](#reporting-bugs)
   * [Suggesting Enhancements](#suggesting-enhancements)
+  * [Your First Code Contribution](#your-first-code-contribution)
   * [Pull Requests](#pull-requests)
 
 [Styleguides](#styleguides)
@@ -105,7 +106,16 @@ You can use [this tool](https://www.cockos.com/licecap/) to record GIFs on macOS
 
 This section guides you through submitting an enhancement suggestion for Closa, including completely new features and minor improvements to existing functionality. Following these guidelines helps maintainers and the community understand your suggestion :pencil: and find related suggestions :mag_right:.
 
-Before creating enhancement suggestions, please check [this list](#before-submitting-an-enhancement-suggestion) as you might find out that you don't need to create one. When you are creating an enhancement suggestion, please [include as many details as possible](#how-do-i-submit-a-good-enhancement-suggestion). Fill in [the template](https://github.com/closa/.github/blob/master/.github/ISSUE_TEMPLATE/feature_request.md), including the steps that you imagine you would take if the feature you're requesting existed.
+When you are creating an enhancement suggestion, please `include as many details as possible`. Fill in [the template](https://github.com/closa/.github/blob/master/.github/ISSUE_TEMPLATE/feature_request.md), including the steps that you imagine you would take if the feature you're requesting existed.
+
+### **Your First Code Contribution**
+
+Unsure where to begin contributing to Closa ? You can start by looking through these `beginner` and `help-wanted` issues:
+
+- [Beginner Issues](https://github.com/beClosa/bot-discord/issues?q=is%3Aopen+is%3Aissue+label%3A%22beginner+friendly%22+sort%3Acomments-desc) - issues which should only require a few lines of code, and a test or two.
+- [Help wanted issues](https://github.com/beClosa/bot-discord/issues?q=is%3Aopen+is%3Aissue+sort%3Acomments-desc+label%3A%22help+wanted%22) - issues which should be a bit more involved than `beginner` issues.
+
+Both issue lists are sorted by total number of comments. While not perfect, number of comments is a reasonable proxy for impact a given change will have.
 
 ### Pull Requests
 
@@ -131,9 +141,10 @@ Please follow these steps to have your contribution considered by the maintainer
     * :green_heart: `:green_heart:` when fixing the CI build
     * :white_check_mark: `:white_check_mark:` when adding tests
     * :lock: `:lock:` when dealing with security
-    * :arrow_up: `:arrow_up:` when upgrading dependencies
-    * :arrow_down: `:arrow_down:` when downgrading dependencies
-
+* Example: 
+  * `$ git commit -m  ':memo: Add README.md'`
+  * `$ git commit -m ':white_check_mark: Add testing for daily streak'`
+  
 ## Additional Notes
 
 ### Issue and Pull Request Labels
