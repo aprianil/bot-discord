@@ -100,7 +100,6 @@ bot.on('ready', () => {
 	console.info(`Logged in as ${bot.user.tag}!`);
 	bot.guilds.get(ServerId).members.get(MyId).send("Restart server closa")
 
-	FocusGroupController.OpenFocusGroup(bot)
 	ThirtyDaysController.restart(bot)
 });
 
