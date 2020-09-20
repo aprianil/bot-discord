@@ -8,12 +8,14 @@ The following is a set of guidelines for contributing to Closa and its packages,
 [What should I know before I get started?](#what-should-i-know-before-i-get-started)
   * [Closa Community](#closa-community)
   * [Tech Stack](#tech-stack)
+  * [Run Bot in local computer](#local-development)
 
 
 
 [How Can I Contribute?](#how-can-i-contribute)
   * [Reporting Bugs](#reporting-bugs)
   * [Suggesting Enhancements](#suggesting-enhancements)
+  * [Your First Code Contribution](#your-first-code-contribution)
   * [Pull Requests](#pull-requests)
 
 [Styleguides](#styleguides)
@@ -58,15 +60,21 @@ Our community helps you build the right habits. Remove Distraction. Meet New Ind
 >9. Value the 1 on 1 Relationship  
 >10. Pay it forward!  
 
-### **Tech Stack**
+### **Main Tech Stack**
 - Bot Discord
   - Nodejs
-  - discordjs
+  - Discordjs
 - API
   - Express
   - Sequelize
   - Postgres
   - JWT
+
+### Local development
+- install [postgres](https://www.postgresql.org/download/) on your local computer
+- Install [Postman](https://www.postman.com/downloads/) or similar apps for testing API
+- Join Discord Server Closa Development 
+- Running bot closa, you just need run `node app.js` on your terminal
 ---
 
 ## How Can I Contribute?
@@ -75,14 +83,14 @@ Our community helps you build the right habits. Remove Distraction. Meet New Ind
 
 This section guides you through submitting a bug report for Closa. Following these guidelines helps maintainers and the community understand your report :pencil:, reproduce the behavior, and find related reports :mag_right:.
 
-Before creating bug reports, please check [this list](#before-submitting-a-bug-report) as you might find out that you don't need to create one. When you are creating a bug report, please [include as many details as possible](#how-do-i-submit-a-good-bug-report). Fill out [the required template](https://github.com/closa/.github/blob/master/.github/ISSUE_TEMPLATE/bug_report.md), the information it asks for helps us resolve issues faster.
+When you are creating a bug report, please [include as many details as possible](#how-do-i-submit-a-good-bug-report). Fill out [the required template](https://github.com/beClosa/bot-discord/blob/master/.github/ISSUE_TEMPLATE/bug_report.md), the information it asks for helps us resolve issues faster.
 
 > **Note:** If you find a **Closed** issue that seems like it is the same thing that you're experiencing, open a new issue and include a link to the original issue in the body of your new one.
 
 
 #### How Do I Submit A (Good) Bug Report?
 
-Bugs are tracked as [GitHub issues](https://guides.github.com/features/issues/). After you've determined, create an issue on that repository and provide the following information by filling in [the template](https://github.com/closa/.github/blob/master/.github/ISSUE_TEMPLATE/bug_report.md).
+Bugs are tracked as [GitHub issues](https://guides.github.com/features/issues/). After you've determined, create an issue on that repository and provide the following information by filling in [the template](https://github.com/beClosa/bot-discord/blob/master/.github/ISSUE_TEMPLATE/bug_report.md).
 
 Explain the problem and include additional details to help maintainers reproduce the problem:
 
@@ -98,12 +106,16 @@ You can use [this tool](https://www.cockos.com/licecap/) to record GIFs on macOS
 
 This section guides you through submitting an enhancement suggestion for Closa, including completely new features and minor improvements to existing functionality. Following these guidelines helps maintainers and the community understand your suggestion :pencil: and find related suggestions :mag_right:.
 
-Before creating enhancement suggestions, please check [this list](#before-submitting-an-enhancement-suggestion) as you might find out that you don't need to create one. When you are creating an enhancement suggestion, please [include as many details as possible](#how-do-i-submit-a-good-enhancement-suggestion). Fill in [the template](https://github.com/closa/.github/blob/master/.github/ISSUE_TEMPLATE/feature_request.md), including the steps that you imagine you would take if the feature you're requesting existed.
+When you are creating an enhancement suggestion, please `include as many details as possible`. Fill in [the template](https://github.com/closa/.github/blob/master/.github/ISSUE_TEMPLATE/feature_request.md), including the steps that you imagine you would take if the feature you're requesting existed.
 
-#### Local development
-- You must install postgres on your local computer
-- Install Postman or apps similar for testing API
-- Running bot closa, you just need run `node app.js` on your terminal
+### **Your First Code Contribution**
+
+Unsure where to begin contributing to Closa ? You can start by looking through these `beginner` and `help-wanted` issues:
+
+- [Beginner Issues](https://github.com/beClosa/bot-discord/issues?q=is%3Aopen+is%3Aissue+label%3A%22beginner+friendly%22+sort%3Acomments-desc) - issues which should only require a few lines of code, and a test or two.
+- [Help wanted issues](https://github.com/beClosa/bot-discord/issues?q=is%3Aopen+is%3Aissue+sort%3Acomments-desc+label%3A%22help+wanted%22) - issues which should be a bit more involved than `beginner` issues.
+
+Both issue lists are sorted by total number of comments. While not perfect, number of comments is a reasonable proxy for impact a given change will have.
 
 ### Pull Requests
 
@@ -117,27 +129,22 @@ Please follow these steps to have your contribution considered by the maintainer
 ### Git Commit Messages
 
 * Use the present tense ("Add feature" not "Added feature")
-* Use the imperative mood ("Move cursor to..." not "Moves cursor to...")
 * Limit the first line to 72 characters or less
 * Reference issues and pull requests liberally after the first line
 * When only changing documentation, include `[ci skip]` in the commit title
 * Consider starting the commit message with an applicable emoji:
     * :art: `:art:` when improving the format/structure of the code
     * :racehorse: `:racehorse:` when improving performance
-    * :non-potable_water: `:non-potable_water:` when plugging memory leaks
     * :memo: `:memo:` when writing docs
-    * :penguin: `:penguin:` when fixing something on Linux
-    * :apple: `:apple:` when fixing something on macOS
-    * :checkered_flag: `:checkered_flag:` when fixing something on Windows
     * :bug: `:bug:` when fixing a bug
     * :fire: `:fire:` when removing code or files
     * :green_heart: `:green_heart:` when fixing the CI build
     * :white_check_mark: `:white_check_mark:` when adding tests
     * :lock: `:lock:` when dealing with security
-    * :arrow_up: `:arrow_up:` when upgrading dependencies
-    * :arrow_down: `:arrow_down:` when downgrading dependencies
-    * :shirt: `:shirt:` when removing linter warnings
-
+* Example: 
+  * `$ git commit -m  ':memo: Add README.md'`
+  * `$ git commit -m ':white_check_mark: Add testing for daily streak'`
+  
 ## Additional Notes
 
 ### Issue and Pull Request Labels
@@ -149,7 +156,7 @@ This section lists the labels we use to help us track and manage issues and pull
 #### Type of Issue and Issue State
 
 | Label name |  Description |
-| --- | --- | --- | --- |
+| --- | --- |
 | `enhancement` | Feature requests. |
 | `bug` |  Confirmed bugs or reports that are very likely to be bugs. |
 | `help-wanted` |  The Closa core team would appreciate help from the community in resolving these issues. |
@@ -157,8 +164,8 @@ This section lists the labels we use to help us track and manage issues and pull
 
 #### Pull Request Labels
 
-| Label name | Description
-| --- | --- | --- | --- |
+| Label name | Description |
+| --- | --- |
 | `work-in-progress` | Pull requests which are still being worked on, more changes will follow. |
 | `needs-review` | Pull requests which need code review, and approval from maintainers. |
 | `under-review` | Pull requests being reviewed by maintainers. |
