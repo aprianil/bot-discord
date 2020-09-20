@@ -44,18 +44,18 @@ class BookClubController {
                             return val.host
                         })
                         data.forEach(async el => {
-                            setTimeout(() => {
                                 let memberBookClub = bot.guilds.get(ServerId).roles.get(IdRoleBookClub)
                                 let user = bot.guilds.get(ServerId).members.get(el.UserId)
                                 user.removeRole(memberBookClub)
                                 let msg = await generateImage(data, el, host[0])
-                                user.send(BookClubMessage.recapBookClub(user.user.username), {
-                                    files: [{
-                                        attachment: msg,
-                                        name: 'recap.png'
-                                    }]
-                                })
-                            }, 5000 * Math.random());
+                                setTimeout(() => {
+                                    user.send(BookClubMessage.recapBookClub(user.user.username), {
+                                        files: [{
+                                            attachment: msg,
+                                            name: 'recap.png'
+                                        }]
+                                    })
+                                }, 5000 * Math.random());
                         });
                         resolve("Berhasil Send Recap")
                     })
